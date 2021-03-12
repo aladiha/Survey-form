@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  html {
+    background: #cccccc url("data:image/jpeg;base64,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") center no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-blend-mode: multiply;
+    padding: 20px;
+  }
+  
+  #title {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 400;
+    box-sizing: border-box;
+    text-shadow: 2px 2px 2px rgb(0 0 0)
+  }
+  
+  #description {
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    font-weight: 100;
+    font-style: italic;
+    text-shadow: 1px 1px rgb(0 0 0);
+  }
+  
+  #survey-form {
+    background: #262644;
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+    padding: 13px;
+    border-radius: 5px;
+    padding: 20px 50px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .label-title {
+    box-sizing: border-box;
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-container {
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+  
+  #dropdown {
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    height: 30px;
+  }
+  
+  @media(min-width: 1000px){
+    #survey-form {
+      width: 600px;
+    }
+  }
+  
+  .radio {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .radio-buttons {
+    margin-top: 20px;
+  }
+  
+  .textarea-t {
+    width: 100%;
+    text-align: start;
+    height: 100px;
+  }
+  
+  .but {
+    width: 100%;
+    height: 40px;
+    font-size: 1.1rem;
+    color: white;
+    background: green;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px white;
+  }
+  
+  .but:hover {
+    background: white;
+    color: green;
+    cursor: pointer;
+    
+  }
+
+  .neet {
+      font-weight: lighter;
+      font-size: smaller;
+      padding-left: 8px;
+  }
